@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/controller/gsb/modele/Localite.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/controller/gsb/modele/Medecin.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/controller/gsb/modele/Medicament.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/controller/gsb/modele/Visite.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/controller/gsb/modele/Visiteur.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/controller/gsb/modele/dao/.gitignore" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/controller/gsb/modele/dao/ConnexionMySql.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/controller/gsb/modele/dao/LocaliteDao.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/controller/gsb/modele/dao/MedecinDao.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/controller/gsb/modele/dao/MedicamentDao.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/controller/gsb/modele/dao/VisiteDao.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/controller/gsb/modele/dao/VisiteurDao.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/controller/gsb/service/MedecinService.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/controller/gsb/service/MedicamentService.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/controller/gsb/service/VisiteService.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/controller/gsb/service/VisiteurService.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/controller/gsb/tests/ConnexionTest.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/controller/gsb/tests/MedecinDaoTestRetournerDictionnaire.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/controller/gsb/tests/MedecinServiceTest.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/controller/gsb/utils/ConfigManager.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/controller/gsb/utils/ValidationUtils.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/resources/other/GSB script total.sql" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/resources/other/config" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/resources/other/mysql-connector-java-5.1.32-bin.jar" charset="windows-1252" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

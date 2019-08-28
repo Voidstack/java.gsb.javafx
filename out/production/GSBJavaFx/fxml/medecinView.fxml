@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="rootPane" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.gsb.controller.ControllerMedecin">
+   <children>
+      <StackPane AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox alignment="CENTER">
+               <children>
+                  <HBox alignment="CENTER">
+                     <children>
+                        <VBox prefWidth="150.0">
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Nom :" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Prenom :" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Code medecin :" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Adresse :" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Téléphone :" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Code postal :" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Spécialité :" />
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefWidth="150.0">
+                           <children>
+                              <Text fx:id="txtNom" strokeType="OUTSIDE" strokeWidth="0.0" text="Nom :" />
+                              <Text fx:id="txtPrenom" strokeType="OUTSIDE" strokeWidth="0.0" text="Prenom :" />
+                              <Text fx:id="txtCode" strokeType="OUTSIDE" strokeWidth="0.0" text="Code medecin :" />
+                              <Text fx:id="txtAdresse" strokeType="OUTSIDE" strokeWidth="0.0" text="Adresse :" />
+                              <Text fx:id="txtTel" strokeType="OUTSIDE" strokeWidth="0.0" text="Téléphone :" />
+                              <Text fx:id="txtCP" strokeType="OUTSIDE" strokeWidth="0.0" text="Code postal :" />
+                              <Text fx:id="txtSpe" strokeType="OUTSIDE" strokeWidth="0.0" text="Spécialité :" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" spacing="80.0">
+                     <children>
+                        <Button fx:id="btPrevious" mnemonicParsing="false" onMouseClicked="#onClick" prefHeight="35.0" prefWidth="100.0" text="Précédent" textFill="WHITE" />
+                        <Button fx:id="btNext" mnemonicParsing="false" onMouseClicked="#onClick" prefHeight="35.0" prefWidth="100.0" text="Suivant" textFill="WHITE" />
+                     </children>
+                     <padding>
+                        <Insets top="50.0" />
+                     </padding>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </StackPane>
+   </children>
+</AnchorPane>
